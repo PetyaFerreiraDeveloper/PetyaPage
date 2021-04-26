@@ -1,3 +1,3 @@
 ## Petya's Page
 
-This is a small experiment I've done to outline my professional experience and personal interests.
+This is my first ever webpage which outlines my professional experience and personal interests.
