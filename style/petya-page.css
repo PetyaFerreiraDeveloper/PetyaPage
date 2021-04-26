@@ -8,10 +8,8 @@ body {
     color: black;
     margin: 0;
 }
-
 #navbar {
     width: 100%;
-    /*background: linear-gradient(35deg, #CCFFFF, #FFCCCC);*/
     border:black;
     border-style:solid;
     position: fixed;
@@ -22,7 +20,6 @@ body {
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
 @keyframes rainbow {
     0% {
         background-color: #CCFFFF;
@@ -39,19 +36,16 @@ nav li{
     padding: 5px;
     transform: skewX(-24deg);
 }
-
 a {
     text-decoration: none;
 }
 nav li:hover{
     transform: scale(1.1);
 }
-
 .border{
     border-color: white;
     border-width: 5px;
     border-style: solid;
-    /* border: solid 5px white; */
     border-radius: 30px;
     background-color: rgb(178, 190, 153);
     padding-left: 1%;
@@ -59,7 +53,6 @@ nav li:hover{
     margin: 0 0 20px 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30), 0 6px 20px rgba(0, 0, 0, 0.90);
 }
-
 #personal-info {
     display: flex;
     flex-direction: row;
@@ -68,15 +61,13 @@ nav li:hover{
     padding: 2%;
     position: relative;
 }
-
 #petya {
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
-
 #img-div{
-    background-image: url('../images/petya_cv_face_3x4.jpg');
+    background-image: url('../images/petya-cv.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 -5px;
@@ -86,11 +77,9 @@ nav li:hover{
     border: solid 5px white;
     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.30), 0 6px 20px rgba(0, 0, 0, 0.90);
 }
-
 #img-div:hover {
     transform: scale(1.1);
 }
-
 #tribute-info {
     display: flex;
     flex-direction: column;
@@ -100,7 +89,6 @@ nav li:hover{
 #tribute-info li {
     font-weight: bold;    
 }
-
 h3 {
     text-align: center;
 }
@@ -111,16 +99,9 @@ p {
     text-align: justify;
     line-height: 20px;
 }
-
 a {
     color: blue;
 }
 a:hover {
     color: red;
 }
-
-/*#child-nav {
-    position: absolute;
-    right: 30px;
-    top: 10px;
-}*/
