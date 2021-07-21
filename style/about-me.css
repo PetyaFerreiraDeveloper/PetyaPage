@@ -3,9 +3,9 @@ main {
     top: 56px;
 }
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
-    color: black;
+    color: rgb(228, 228, 228);
     margin: 0;
 }
 
@@ -25,11 +25,36 @@ body {
 
 @keyframes rainbow {
     0% {
-        background-color: #CCFFFF;
+        background-color: #ccffff;
     }
     100% {
-        background-color: #FFCCCC;
+        background-color: #ffcccc;
     }
+
+    /* 0% {
+        background-color: #ff0000;
+    }
+    14% {
+        background-color: #ffa500;
+    }
+    28% {
+        background-color: #ffff00;
+    }
+    42% {
+        background-color: #008000;
+    }
+    56% {
+        background-color: #0000ff;
+    }
+    70% {
+        background-color: #4b0082;
+    }
+    84% {
+        background-color: #ee82ee;
+    }
+    100% {
+        background-color: #FFffff;
+    } */
 }
 #child-nav li{
     display: inline;
@@ -119,9 +144,3 @@ a {
 a:hover {
     color: red;
 }
-
-/*#child-nav {
-    position: absolute;
-    right: 30px;
-    top: 10px;
-}*/
