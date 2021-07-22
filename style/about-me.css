@@ -1,7 +1,7 @@
 :root {
     font-family: 'Open Sans', sans-serif;
     --fs-mobile: 1.3rem;
-    --fs-desktop: 2rem;
+    --fs-desktop: 1.5rem;
 }
 
 body {
@@ -89,7 +89,7 @@ main {
 }
 
 .border a {
-    color: blue;
+    color: #ccffff;
     font-style: italic;
     margin: 1rem;
     text-decoration: none;
@@ -147,6 +147,20 @@ main {
 footer {
     color: black;
     grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    padding: 0 0.5rem;
+}
+
+footer a:hover {
+    color: red;
 }
 
 
